@@ -15,7 +15,7 @@ console.log(femaleName);
 
 // task 2: starting with "A"
 
-const startsWithA = students.filter((female) => female.name.startsWith("A"));
+const startsWithA = students.filter((nameStart) => nameStart.name.startsWith("A"));
 
 console.log(startsWithA);
 
